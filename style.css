@@ -10,3 +10,11 @@ body {
 #title {
     text-align: center;
 }
+
+.ball {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+  display: inline-block;
+}
