@@ -43,10 +43,10 @@ window.onload = function(){
         }
         
         function resetGame() {
-            pAnswer.innerText = 'Escolha uma cor';
+            paragrafo.innerText = 'Escolha uma cor';
             backgroundBall();
             rgb.innerText = randomElementClassBall();
           }
           
-          buttonResetGame.addEventListener('click', resetGame);
+          btn.addEventListener('click', resetGame);
 }
